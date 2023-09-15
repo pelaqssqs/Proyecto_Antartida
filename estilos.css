@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Poppins;
+    color: #e1eeef;
+}
+.fondo{
+        background-image: url('Fondo_antartuda.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed
+ }
+
+ #titulo{
+    text-align: center;
+}
+.header {
+    display: flex;
+    text-align: center;
+    background-color: #15395D;
+    justify-content: space-between;
+    font-family: Poppins; 
+}
+.img1{
+    height: 150px;
+    width: 150px; 
+    padding-left: 50px;   
+}
+
+header li{
+    display: inline-flex;
+    margin-right: 40px
+}
+header ul{
+    text-align: center;
+    padding-top: 40px;
+}
+.boton {
+    background-color: #e1eeef;
+    color: #000000;
+    padding: 7px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Poppins;
+    border: none;
+}
+
+.header ul li a button:hover {
+    background-color: #8b8b8b;
+    transition: 200ms;
+}
+.cuadroprin h2 {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cuadroprin{
+    height: auto;
+    width: auto;
+    margin: 35px 170px;
+    padding: 40px 80px;
+    background-color: #15395D;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.ftint{
+    border-radius: 50%;
+}
+.href{
+    color: rgb(255, 255, 255)
+}
+.href:hover {
+    color: blue;
+}
+.contenido {
+    padding: 20px 75px;
+}
+.cuadro {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #15395D;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    
+}
+.contenido img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+.contenidoa{
+    text-align: center;
+}
+.botoncv{
+    background-color: #e1eeef;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Poppins;
+}
+    .botoncv:hover {
+    background-color: #8b8b8b;
+    transition: 200ms;
+}
+
+/*footer{
+    background-color: #15395D;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+    position: sticky;
+}*/
+footer {
+    background-color: #091c38;
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
