@@ -27,7 +27,14 @@ body{
     width: 150px; 
     padding-left: 50px;   
 }
-
+.img2{
+    height: 220px;
+    width: 220px;
+}
+.divimg{
+    text-align: center;
+    padding-top: 50px;
+}
 header li{
     display: inline-flex;
     margin-right: 40px
@@ -114,13 +121,6 @@ header ul{
     transition: 200ms;
 }
 
-/*footer{
-    background-color: #15395D;
-    display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-    position: sticky;
-}*/
 footer {
     background-color: #091c38;
     height: 80px;
