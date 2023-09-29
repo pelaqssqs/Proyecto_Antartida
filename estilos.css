@@ -1,6 +1,6 @@
 body{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     background-color: rgb(255, 255, 255);
     font-family: Poppins;
     color: #e1eeef;
@@ -25,7 +25,7 @@ body{
 .img1{
     height: 150px;
     width: 150px; 
-    padding-left: 50px;   
+    padding-left: 50px;  
 }
 .img2{
     height: 220px;
@@ -68,7 +68,7 @@ header ul{
     height: auto;
     width: auto;
     margin: 35px 170px;
-    padding: 40px 80px;
+    padding: 70px 80px;
     background-color: #15395D;
     text-align: center;
     border-radius: 20px;
@@ -130,10 +130,179 @@ footer {
     display: flex;
     align-items: center;
     font-size: 15px;
+    width: 100%;
+    position: absolute;
+
 }
+
 
 footer div {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+}
+
+@media all and (max-width: 700px){
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: rgb(255, 255, 255);
+        font-family: Poppins;
+        color: #e1eeef;
+    }
+    .fondo{
+            background-image: url('Fondo_antartuda.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed
+     }
+    
+     #titulo{
+        text-align: center;
+    }
+    .header {
+        display: flex;
+        text-align: center;
+        background-color: #15395D;
+        justify-content: space-around;
+        font-family: Poppins; 
+    }
+    .img1{
+        height: 150px;
+        width: 150px; 
+        padding-left: 50px;  
+    }
+    .img2{
+        height: 150px;
+        width: 150px;
+    }
+    .divimg{
+        text-align: center;
+        padding-top: 50px;
+    }
+    header li{
+        display: inline-flex;
+        margin-right: 30px;
+        padding: 1px;
+
+    }
+    header ul{
+        text-align: center;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    .boton {
+        background-color: #e1eeef;
+        color: #000000;
+        padding: 7px 7px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Poppins;
+        border: none;
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    .header ul li a button:hover {
+        background-color: #8b8b8b;
+        transition: 200ms;
+    }
+    .cuadroprin h2 {
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cuadroprin{
+        height: auto;
+        width: auto;
+        margin: 10px 50px;
+        padding: 40px 80px;
+        background-color: #15395D;
+        text-align: center;
+        border-radius: 20px;
+        font-size: x-small;
+    }
+    .cuadroprin p{
+        font-size: small;
+    }
+    .ftint{
+        border-radius: 50%;
+    }
+    .href{
+        color: rgb(255, 255, 255)
+    }
+    .href:hover {
+        color: blue;
+    }
+    .contenido {
+        padding: 20px 30px;
+        font-size: x-small;
+    
+    }
+    .cuadro {
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        max-height: auto;
+        margin: 50px;
+        background-color: #15395D;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        
+    }
+    .contenido img{
+        border-radius: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .contenidoa{
+        text-align: center;
+    }
+    .botoncv{
+        background-color: #e1eeef;
+        color: #000000;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Poppins;
+    }
+        .botoncv:hover {
+        background-color: #8b8b8b;
+        transition: 200ms;
+    }
+    
+    footer {
+        background-color: #091c38;
+        height: 80px;
+        width: 100%;
+        color: white;
+        font-weight: 200;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        padding-bottom: 0%;
+    }
+    
+    footer div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: small;
+    }
+    input:checked~ul{
+        display: block;
+        position: absolute;
+        right: 130px;
+        z-index: 1;
+    }
+    .imgint{
+        max-width: 100px;
+        max-height: 100px;
+    }
 }
