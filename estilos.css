@@ -70,10 +70,19 @@ header ul{
     margin: 35px 170px;
     padding: 70px 80px;
     background-color: #15395D;
-    text-align: center;
     border-radius: 20px;
+    text-align: center;
 }
-
+.cuadroprin1{
+    height: auto;
+    width: 40em;
+    margin: 35px 170px;
+    padding: 30px 80px;
+    background-color: #15395D;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 34.5em;
+}
 .ftint{
     border-radius: 50%;
 }
@@ -198,6 +207,45 @@ footer div {
     padding-right: 90px;
     padding-top: 40px;
     
+}
+
+#img1 {
+    margin-left: 40em;
+    width: 39em;
+    height: 10em;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://img.freepik.com/fotos-premium/grupo-personas-poniendo-sus-manos-juntas_804007-6963.jpg);
+}
+#img2 {
+    margin-left: 40em;
+    width: 39em;
+    height: 10em;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://arc-anglerfish-arc2-prod-elespectador.s3.amazonaws.com/public/OEBKWFPGR5HH3IYYORUEWECRDI.jpg);
+}
+#img3 {
+    margin-left: 40em;
+    width: 39em;
+    height: 10em;
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://es.greenpeace.org/es/wp-content/uploads/sites/3/2020/02/GP0STUG9T_Medium_res_with_credit_line-1200x630-c-default.jpg);
+}
+.textoimag {
+    text-align: center; 
+    padding-top: 100px;
+    color: #fff;
+}
+.textoimag3{
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.link{
+    color: #fff;
 }
 @media all and (max-width: 700px){
     body{
