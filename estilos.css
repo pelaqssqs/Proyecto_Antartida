@@ -76,12 +76,13 @@ header ul{
 .cuadroprin1{
     height: auto;
     width: 40em;
-    margin: 35px 170px;
     padding: 30px 80px;
     background-color: #15395D;
     border-radius: 20px;
     text-align: center;
-    margin-left: 17.5em;
+    margin-left: 21em;
+    margin-top: 35px;
+    
 }
 .ftint{
     border-radius: 50%;
@@ -210,15 +211,16 @@ footer div {
 }
 
 #img1 {
-    margin-left: 23em;
+    margin-left: 26em;
     width: 39em;
     height: 10em;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    
     url(https://img.freepik.com/fotos-premium/grupo-personas-poniendo-sus-manos-juntas_804007-6963.jpg);
 }
 #img2 {
-    margin-left: 23em;
+    margin-left: 26em;
     width: 39em;
     height: 10em;
     background-image:
@@ -226,7 +228,7 @@ footer div {
     url(https://arc-anglerfish-arc2-prod-elespectador.s3.amazonaws.com/public/OEBKWFPGR5HH3IYYORUEWECRDI.jpg);
 }
 #img3 {
-    margin-left: 23em;
+    margin-left: 26em;
     width: 39em;
     height: 10em;
     background-image:
@@ -250,6 +252,16 @@ footer div {
 .cuadrolineas{
     width: 600px;
 }
+.contador{
+    height: auto;
+    width: auto;
+    margin: 35px 40em;
+    padding: 5px;
+    background-color: #15395D;
+    border-radius: 20px;
+    text-align: center;
+}
+
 @media all and (max-width: 700px){
     body{
         padding: 0px;
@@ -325,12 +337,12 @@ footer div {
     .cuadroprin{
         height: auto;
         width: auto;
-        margin: 10px 50px;
+        margin: 50px 50px;
         padding: 40px 80px;
         background-color: #15395D;
         text-align: center;
         border-radius: 20px;
-        font-size: x-small;
+        font-size: small;
     }
     .cuadroprin p{
         font-size: small;
@@ -396,6 +408,7 @@ footer div {
         font-size: 15px;
         padding-bottom: 0%;
         top: 345rem;
+        display: flex;
     }
     
     footer div {
@@ -442,7 +455,8 @@ footer div {
         visibility: hidden;
     }
     #img1 {
-        margin-left: 20px;
+        margin-left: 39px;
+        margin-top: 30px;
         width: 333px;
         height: 200px;
         background-image:
@@ -450,7 +464,7 @@ footer div {
         url(https://img.freepik.com/fotos-premium/grupo-personas-poniendo-sus-manos-juntas_804007-6963.jpg);
     }
     #img2 {
-        margin-left: 20px;
+        margin-left: 39px;
         width: 333px;
         height: 200px;
         background-image:
@@ -458,7 +472,7 @@ footer div {
         url(https://arc-anglerfish-arc2-prod-elespectador.s3.amazonaws.com/public/OEBKWFPGR5HH3IYYORUEWECRDI.jpg);
     }
     #img3 {
-        margin-left: 20px;
+        margin-left: 39px;
         width: 333px;
         height: 200px;
         background-image:
@@ -468,16 +482,24 @@ footer div {
     .cuadroprin1{
         height: auto;
         width: 11em;
-        margin: 35px 20px;
         padding: 30px 80px;
         background-color: #15395D;
         border-radius: 20px;
         text-align: center;
-        margin-left: 17px;
+        margin-left: 36px;
     }
     .cuadrolineas{
         width: 200px;
         display: flex;
+    }
+    .contador{
+        height: auto;
+        width: 11em;
+        padding: 20px 50px;
+        background-color: #15395D;
+        border-radius: 20px;
+        text-align: center;
+        margin-left: 70px;
     }
 
 }

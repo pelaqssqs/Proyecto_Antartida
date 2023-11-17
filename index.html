@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>Pagina Principal</title>
+    <link rel="icon" href="imagen.ico">
+    <title>Página Principal | Proyecto Antártida</title>
 </head>
 <body class="fondo">
     <header class="header">
@@ -46,6 +47,20 @@
             <strong> Profesora:</strong> Litovicius Patricia Carina 
            </p>
     </section>
+    <div class="contador">
+        <p id="contadorVisitas">Visitas de la pagina:  <span id="contador">0</span></p>
+
+            <script>
+                var contador = localStorage.getItem("visitas") || 0;
+
+                document.getElementById("contador").innerText = contador;
+
+
+                contador++;
+                localStorage.setItem("visitas", contador);
+            </script>
+
+    </div>
     
     <footer>
         <div>
